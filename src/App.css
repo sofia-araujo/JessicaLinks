@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+   background-color: hsl(0, 0%, 12%);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 8px;
+   gap: 15px;
+   width: 350px;
+   height: 480px;
+   margin-top: 200px;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+h3, h5 {
+    color: hsl(0, 0%, 100%);
+}
+
+
+h6 {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+li {
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 8px;
+    border-radius: 7px;
+    padding: 8px 50px;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
